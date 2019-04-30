@@ -1,0 +1,32 @@
+    /* restituisce 1 */
+    printf("Esercizio 1.1: %d\n", verifica_riga(campo1, 3));
+    /* restituisce 0 poiché l'indice di riga è invalido */
+    printf("Esercizio 1.2: %d\n", verifica_riga(campo1, 9));
+    /* restituisce 0 dal momento che i numeri 1 e 6 sono presenti due volte e mancano i numeri 2 e 9 */
+    printf("Esercizio 1.3: %d\n\n", verifica_riga(campo3, 5));
+
+
+    /* restituisce 1 */
+    printf("Esercizio 2.1: %d\n", verifica_colonna(campo1, 0));
+    /* restituisce 0 poiché l'indice della colonna è invalido */
+    printf("Esercizio 2.2: %d\n", verifica_colonna(campo1, -2));
+    /* restituisce 0 dal momento che il numero 3 è duplicato e manca il 2 */
+    printf("Esercizio 2.3: %d\n\n", verifica_colonna(campo3, 1));
+
+
+    /* restituisce 1 */
+    printf("Esercizio 3.1: %d\n", verifica_riquadro(campo1, 0, 0));
+    /* restituisce 0 poiché l'indice della riga è invalido */
+    printf("Esercizio 3.2: %d\n", verifica_riquadro(campo1, 8, 2));
+    /* restituisce 0 dal momento che il numero 4 è presente due volte e manca il 5 */
+    printf("Esercizio 3.3: %d\n", verifica_riquadro(campo1, 1, 1));
+    /* restituisce 0 dal momento che il 3 è duplicato e manca il numero 8 */
+    printf("Esercizio 3.4: %d\n\n", verifica_riquadro(campo3, 0, 0));
+
+
+    /* restituisce 1 */
+    printf("Esercizio 4.1: %d\n", verifica_campo(campo1));
+    /* restituisce 1 */
+    printf("Esercizio 4.2: %d\n", verifica_campo(campo2));
+    /* restituisce 0 */
+    printf("Esercizio 4.3: %d\n\n", verifica_campo(campo3));

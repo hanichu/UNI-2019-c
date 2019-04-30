@@ -1,0 +1,1 @@
+int ricerca(int vet[], int e, int inf, int sup);

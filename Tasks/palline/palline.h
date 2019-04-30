@@ -1,0 +1,1 @@
+int palline(int n, char cima);
